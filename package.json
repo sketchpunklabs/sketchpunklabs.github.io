@@ -1,0 +1,24 @@
+{
+    "name"          : "SketchpunkLabs.github.uo",
+    "version"       : "0.0.0.1",
+    "description"   : "",
+    "keywords"      : [ "threejs", "3d" ],
+    "repository"    : { "url": "https://github.com/sketchpunklabs/sketchpunklabs.github.io.git", "type": "git" },
+    "author"        : { "name": "Sketchpunk" },
+    "license"       : "MIT",
+    "main"          : "",
+    "module"        : "",
+    "files"         : [],
+
+    "devDependencies": {
+        "browser-sync"  : "^2.27.5"
+    },
+
+    "dependencies": {
+    },
+
+    "scripts": {
+        "bsyncInit" : "browser-sync init",
+        "start"     : "browser-sync start --config bs-config.js"
+    }
+}
